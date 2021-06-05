@@ -17,7 +17,10 @@ const makeLinePush = (message) => {
         channelAccessToken: AccessToken
     });
 
-    client.pushMessage(Target, message)
+    client.pushMessage(Target, {
+        type: 'text',
+        text: message
+    })
         .then(() => {
             console.log('success');
         })
