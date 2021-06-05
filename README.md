@@ -1,1 +1,1 @@
-# line-bot for IFTTT
+# line push for IFTTT
