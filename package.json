@@ -1,0 +1,17 @@
+{
+  "name": "line-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "haofu",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^7.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "linebot": "^1.5.3"
+  }
+}
